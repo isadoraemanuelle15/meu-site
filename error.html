@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Error Page</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      cursor: progress;
+    }
+    
+    /* Container para centralização e limitação de largura */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    
+    /* Conteúdo Principal */
+    .main-content {
+      padding: 40px 0;
+      font-size: 32px;
+    }
+    
+    .error-section {
+      margin-top: 40px;
+    }
+    
+    .error-code {
+      font-size: 96px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    .error-code span {
+      font-size: 96px;
+      color: #555;
+      margin-left: 10px;
+    }
+    
+    .error-message {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    
+    .error-description {
+      font-size: 24px;
+      color: #666;
+      margin-bottom: 40px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .inicio {
+      font-size: 28px;
+      color: rgb(0, 153, 255);
+      margin-top: 20px;
+      display: inline-block;
+    }
+    
+    .inicio:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Conteúdo principal da página de erro -->
+  <main class="main-content">
+    <div class="container">
+      <div class="error-section">
+        <h2 class="error-code">404 <span>:(</span></h2>
+        <h3 class="error-message">Oops! Esta página não pode ser encontrada!</h3>
+        <p class="error-description">
+          Parece que não existe novos projetos por enquanto.
+        </p>
+        <a class="inicio" href="index.html"><b>Voltar para página inicial</b></a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
