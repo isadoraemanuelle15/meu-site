@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <title>Projetos</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Menu de Projetos</title>
+  <link rel="icon" type="icon/png" href="icons/projetos.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 1;
+    }
+
+    .container {
+      width: 35%;
+      height: 550px;
+      background-color: white;
+      border-radius: 50px;
+      margin: 50px auto;
+      border: 3px solid black;
+      box-shadow: inset 0px 0px 25px black;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      padding-top: 50px;
+    }
+
+    header {
+      position: relative;
+    }
+
+   img {
+      position: absolute;
+      left: 10px;
+      top: -20px;
+      width: 45px;
+      height: 45px;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-family: "Micro 5", sans-serif;
+      font-weight: 500;
+      font-size: 90px;
+      margin: 0;
+      padding: 20px 0;
+    }
+
+    .bnt-link {
+      width: 210px;
+      height: 50px;
+      text-decoration: none;
+      border-radius: 25px;
+      background-color: white;
+      font-family: "Cambria", sans-serif;
+      padding: 10px;
+      color: black;
+      font-size: 30px;
+      border: 5px solid black;
+      display: block;
+      margin: 20px auto;
+      outline: none;
+      transition: 0.8s;
+      font-weight: bold;
+     cursor: pointer;
+      box-shadow: inset 0px 0px 25px black;
+    }
+
+    .bnt-link:hover {
+      background-color: black;
+      color: white;
+      box-shadow: black 0px 7px 29px 0px;
+      letter-spacing: 3px;
+    }
+
+    .bnt-link:active {
+      letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    box-shadow:  black 0px 0px 0px 0px;
+    transform: translate(10px);
+    transition: 100ms;
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+  <header>
+    <a href="pag inicial.html">
+      <img src="simbols/volta para pag anterior.png" alt="Voltar" class="voltar">
+    </a>
+    <h1><b>PROJETOS</b></h1>
+  </header>
+  <a class="bnt-link" href="introdução.html"><b>INTRODUÇÃO</b></a>
+  <a class="bnt-link" href="sobre mim.html"><b>SOBRE MIM</b></a>
+  <a class="bnt-link" href="error.html"><b>...</b></a>
+</div>
+</body>
+</html>
