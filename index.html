@@ -19,7 +19,13 @@
   <p>Meu nome é Isadora,<br> Criei este site para apresentar <br> meus projetos sobre HTML, CSS e JS!</p>  
   <footer>Rodapé</footer>
   <main>.</main>
-  <style>
+<style>
+/* Para telas menores (celulares) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
     p {
       margin-left: 15px;
     }
